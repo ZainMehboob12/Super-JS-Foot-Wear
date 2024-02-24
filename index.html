@@ -1,1 +1,42 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super JS Footwear Stock Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Super JS Footwear Stock Calculator</h1>
+
+    <div class="calculator-container">
+        <div class="stock-type-selector">
+            <h2>Stock Type:</h2>
+            <select id="stockType">
+                <option value="hand-made">Hand Made</option>
+                <option value="pcu">PCU</option>
+                <option value="pu">PU</option>
+            </select>
+        </div>
+
+        <div class="stock-item-container">
+            <h2>Items:</h2>
+            <ul id="stockItems">
+                <li><input type="number" id="chaster" placeholder="Chaster"></li>
+                <li><input type="number" id="magic" placeholder="Magic"></li>
+                <li><input type="number" id="tasma" placeholder="Tasma"></li>
+                <li><input type="number" id="gam-naki" placeholder="Gam Naki"></li>
+                <li><input type="number" id="gam-sada" placeholder="Gam Sada"></li>
+                <li><input type="number" id="jogar" placeholder="Jogar"></li>
+                <li><input type="number" id="chappel" placeholder="Chappel"></li>
+            </ul>
+        </div>
+
+        <button id="calculateButton">Calculate Total Stock</button>
+        <p id="totalStockDisplay"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
