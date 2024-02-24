@@ -17,4 +17,4 @@ calculateButton.addEventListener('click', function() {
     totalStockDisplay.textContent = `Total Stock for ${currentStockType}: ${totalStock}`;
 });
 
-stockTypeSelect.addEventListener('change',
+stockTypeSelect.addEventListener('change');
